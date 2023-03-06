@@ -1,0 +1,29 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1"    parallel="tests"    thread-count="2">
+    <!--  parallel  calıstırarak aynı anda 2 testı bırden calıstırmıs olduk -->
+    <!--  thread-count : aynı anda kac tane calıstıracagını yanı 2 test dıyo burada  -->
+
+    <test name="Test 1">
+        <parameter name="browser" value="firefox"></parameter>
+       <classes>
+            <class name="Gun06._05_Task_2"></class>
+        </classes>
+    </test>
+
+
+    <test name="Test 2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Gun06._05_Task_2"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
+
+
+
+
+

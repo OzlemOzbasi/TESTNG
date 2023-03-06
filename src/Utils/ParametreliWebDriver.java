@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 public class ParametreliWebDriver {     //  firefox driver  ını ekledık  if li kısımda
 
-    public static WebDriver driver;
+    public  WebDriver driver;     //  2 drıver ı aynı anda kullanabılmek ıcın buradakı static i kaldırdık , cunku statıc sen 1 tanesın demek
     public static WebDriverWait wait;
 
 
